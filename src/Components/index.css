@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+.img{
+    background-image: url(../src/assets/swis4.jpg);
+    width: 100vw;
+    height: auto;
+    color: rgb(0, 0, 0);
+    background-position: center;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    background-size: cover;
+}
+.maini{
+    background-image: url(../src/assets/snow.jpg);
+     width: 100vw;
+    height: auto;
+    background-position: center;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    background-size: cover;
+}
+.regi{
+    background-image: url(../src/assets/water.jpg);
+     width: 100vw;
+    height: auto;
+    background-position: center;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    background-size: cover;
+}
+.regini{
+ /* background-image: url(../src/assets/water1.jpg); */
+    width: 100vw;
+    background-color: rgba(161, 75, 122, 0.556);
+    height: auto;
+    color: rgb(7, 6, 6);
+    background-position: center;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    background-size: cover;
+}

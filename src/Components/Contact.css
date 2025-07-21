@@ -1,0 +1,172 @@
+.contact-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  background: #f4f9ff;
+  background-image: url(./assets/about2.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  /* border-radius: 30px; */
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2e3d49;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.contact-info {
+  background-color: #4a6fc59f;
+  padding: 30px;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #1d1515;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fcf3f3;
+}
+.cnt-us{
+    padding: 0px;
+    text-align: center;
+    font-size: 36px;
+     font-family: 'Winky Sans', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.contact-form {
+  background-color: #4a6fc59f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0b0808;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background: #101117;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #40292d;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  border: none;
+  border-radius: 12px;
+}
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 40px;
+    margin-top: 10px;
+    /* border-radius: 20px; */
+    background-image: url(./assets/snow.jpg);
+  }
+
+  .contact-title,
+  .cnt-us {
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+
+  .contact-info,
+  .contact-form {
+    /* padding: 20px; */
+    width: 80%;
+    text-align: center;
+  }
+
+  .contact-form h3,
+  .contact-info h3 {
+    font-size: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .contact-map iframe {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-title,
+  .cnt-us {
+    font-size: 22px;
+  }
+
+  .contact-form h3,
+  .contact-info h3 {
+    font-size: 18px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 13px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+  }
+}

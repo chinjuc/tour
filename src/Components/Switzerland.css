@@ -1,0 +1,393 @@
+.swis-head {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  /* margin-left: 20px; */
+}
+
+.swis-sub {
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(30, 9, 12);
+  /* background-image: url(../src/assets/china.jpg); */
+  height: 240px;
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+  /* background-color: rgba(4, 78, 102, 0.489); */
+  border: 2px solid rgb(214, 18, 34);
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.swise {
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 800;
+  margin-top: 15px;
+  text-transform: uppercase;
+
+}
+
+.btn-1 {
+  position: absolute;
+  bottom: 0px;
+  left: 7%;
+  /* transform: translateY(5px); */
+  width: 330px;
+  height: 40px;
+  border-radius: 5px;
+  opacity: 0;
+  /* pointer-events: none;  */
+  color: rgba(225, 227, 227, 0.764);
+  letter-spacing: 5px;
+  font-size: 18px;
+  /* transition: all 0.1s ease; */
+  background-color: transparent;
+}
+
+.swis-sub:hover .btn-1 {
+  bottom: 60px;
+  /* transform: translateY(0); */
+  background-color: rgba(46, 116, 128, 0.77);
+  opacity: 1;
+  cursor: pointer;
+  /* pointer-events: auto;  */
+}
+
+.head {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 15px;
+}
+
+.swis1 {
+  background-image: url(../src/assets/swis1.jpg);
+}
+
+.swis2 {
+  background-image: url(../src/assets/swis3.jpg);
+}
+
+.swis3 {
+  background-image: url(../src/assets/swis4.jpg);
+}
+
+.swis4 {
+  background-image: url(../src/assets/swis5.jpg);
+}
+
+.swis5 {
+  background-image: url(../src/assets/swis6.jpg);
+}
+
+.swis6 {
+  background-image: url(../src/assets/switzerland.jpg);
+}
+
+.swis7 {
+  background-image: url(../src/assets/swis2.jpg);
+}
+
+.swis8 {
+  background-image: url(../src/assets/snow.jpg);
+}
+
+.swis9 {
+  background-image: url(../src/assets/swiss.jpg);
+}
+
+.france1 {
+  background-image: url(../src/assets/france1.jpg);
+}
+
+.france2 {
+  background-image: url(../src/assets/france2.jpg);
+}
+
+.france3 {
+  background-image: url(../src/assets/france3.jpg);
+}
+
+.france4 {
+  background-image: url(../src/assets/france4.jpg);
+}
+.france5 {
+  background-image: url(../src/assets/france5.jpg);
+}
+.france6 {
+  background-image: url(../src/assets/france6.jpg);
+}
+.france7 {
+  background-image: url(../src/assets/swis1.jpg);
+}
+.france8 {
+  background-image: url(../src/assets/france7.jpg);
+}
+.us1{
+  background-image: url(../src/assets/us1.jpg);
+}
+.us2{
+  background-image: url(../src/assets/us.jpg);
+}
+.us3{
+  background-image: url(../src/assets/us2.jpg);
+}
+.us4{
+  background-image: url(../src/assets/us4.jpg);
+}
+.us5{
+  background-image: url(../src/assets/us3.jpg);
+}
+.us6{
+  background-image: url(../src/assets/us5.jpg);
+}
+.us7{
+  background-image: url(../src/assets/italy.jpg);
+}
+.china1{
+  background-image: url(../src/assets/chi1.jpg);
+}
+.china2{
+  background-image: url(../src/assets/china.jpg);
+}
+.china3{
+  background-image: url(../src/assets/chi2.jpg);
+}
+.china4{
+  background-image: url(../src/assets/china1.jpg);
+}
+.china5{
+  background-image: url(../src/assets/chi1.jpg);
+}
+.china6{
+  background-image: url(../src/assets/china.jpg);
+}
+.china7{
+  background-image: url(../src/assets/chi2.jpg);
+}
+.china8{
+  background-image: url(../src/assets/china1.jpg);
+}
+.italy1{
+  background-image: url(../src/assets/italy.jpg);
+}
+.italy2{
+  background-image: url(../src/assets/italy1.jpg);
+}
+.italy3{
+  background-image: url(../src/assets/italy2.jpg);
+}
+.italy4{
+  background-image: url(../src/assets/chi1.jpg);
+}
+.italy5{
+  background-image: url(../src/assets/italy3.jpg);
+}
+.italy6{
+  background-image: url(../src/assets/italy.jpg);
+}
+.thailand1{
+  background-image: url(../src/assets/thaii.jpg);
+}
+.thailand2{
+  background-image: url(../src/assets/riski.jpg);
+}
+.thailand3{
+  background-image: url(../src/assets/thai1.jpg);
+}
+.thailand4{
+  background-image: url(../src/assets/thai2.jpg);
+}
+.thailand5{
+  background-image: url(../src/assets/thai3.jpg);
+}
+.thailand6{
+  background-image: url(../src/assets/thai4.jpg);
+}
+.thailand7{
+  background-image: url(../src/assets/thai5.jpg);
+}
+.mal1{
+  background-image: url(../src/assets/mal1.jpg);
+}
+.mal2{
+  background-image: url(../src/assets/mal2.jpg);
+}
+.mal3{
+  background-image: url(../src/assets/mald.jpg);
+}
+.mal4{
+  background-image: url(../src/assets/maldives.jpg);
+}
+.mal5{
+  background-image: url(../src/assets/maldives-island.jpg);
+}
+.mal6{
+  background-image: url(../src/assets/snow.jpg);
+}
+.mal7{
+  background-image: url(../src/assets/palwan.jpg);
+}
+.kerala1{
+  background-image: url(../src/assets/ker1.jpg);
+}
+.kerala2{
+  background-image: url(../src/assets/ker2.jpg);
+}
+.kerala3{
+  background-image: url(../src/assets/ker3.jpg);
+}
+.kerala4{
+  background-image: url(../src/assets/ker3.jpg);
+}
+.kerala5{
+  background-image: url(../src/assets/ker4.jpg);
+}
+.kerala6{
+  background-image: url(../src/assets/kerala.jpg);
+}
+.kerala7{
+  background-image: url(../src/assets/kerala1.jpg);
+}
+.kerala8{
+  background-image: url(../src/assets/kerala3.jpg);
+}
+.swis-sub h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  margin-left: 20px;
+  color: rgb(10, 1, 1);
+}
+
+.swis-sub h2 {
+  position: absolute;
+  bottom: 46px;
+  left: 80%;
+  transform: translateX(-50%);
+  width: 28%;
+  max-width: 580px;
+  height: auto;
+  text-align: center;
+  color: rgb(16, 2, 2);
+  /* background-color: rgba(10, 60, 84, 0.992); */
+  padding: 3px;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.swis-sub em {
+  font-size: 16px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  background-color: rgb(239, 42, 42);
+  padding: 2px 8px;
+  color: white;
+  border-radius: 2px;
+  border-top-left-radius: 8px;
+}
+
+.swis-sub p {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(66, 130, 134, 0.667);
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  width: 90%;
+}
+
+
+
+
+.place-video {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .swis-sub h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  .swis-sub h2 {
+    font-size: 16px;
+  }
+
+  .swis-sub em {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  .swis-sub p {
+    font-size: 12px;
+  }
+}
+.package-list-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: none; 
+}
+
+.package-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  color: white;
+  backdrop-filter: blur(2px);
+}
+
+.package-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  color: white;
+}
+
+.swis-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* .swis-sub {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  color: white;
+} */

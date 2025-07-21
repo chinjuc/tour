@@ -1,0 +1,170 @@
+.heads{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.package-list-container {
+  padding: 30px;
+  /* background: #f9f6fb; */
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #702963;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card em {
+  display: block;
+  font-style: normal;
+  color: #d14b8f;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.btn-1 {
+  background-color: #d14b8f;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-1:hover {
+  background-color: #b93b7b;
+}
+
+.extra-info {
+  background-color: #fff;
+  border: 2px solid rgb(129, 4, 129);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.extra-info h3 {
+  color: #702963;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.extra-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #1e1d1d;
+  letter-spacing: 2px;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.not-found h2 {
+  color: #b00020;
+  font-size: 28px;
+}
+.pck-head{
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+   background: rgb(184, 156, 182);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.honeymoon1{
+    background-image: url(./assets/maldives.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.honeymoon3{
+    background-image: url(./assets/paris.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.honeymoon2{
+    background-image: url(./assets/santorini.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.honeymoon4{
+    background-image: url(./assets/bali.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.honeymoon5{
+    background-image: url(./assets/SwissAlps.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.family1{
+    background-image: url(./assets/singapore.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.family2{
+     background-image: url(./assets/dubai.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.family3
+{
+    background-image: url(./assets/kerala.jpg);
+}
+.family4{
+    background-image: url(./assets/london.jpg);
+}
+.single1{
+    background-image: url(./assets/thaii.jpg);
+}
+.single2{
+    background-image: url(./assets/palwan.jpg);
+}
+.friends1{
+    background-image: url(./assets/goa.jpg);
+}
+.friends2{
+    background-image: url(./assets/manali.jpg);
+}
+.friends3{
+    background-image: url(./assets/dubai.jpg);
+}
+.history1{
+    background-image: url(./assets/rome.jpg);
+}
+.history2{
+    background-image: url(./assets/taj.jpg);
+}
+.history3{
+    background-image: url(./assets/athms.jpg);
+}
+.adventure1{
+    background-image: url(./assets/riski.jpg);
+}
+.adventure2{
+    background-image: url(./assets/ladakh.jpg);
+}
+.adventure3{
+    background-image: url(./assets/nz.jpg);
+}
