@@ -37,13 +37,11 @@
 .btn-1 {
   position: absolute;
   bottom: 0px;
-  left: 7%;
-  /* transform: translateY(5px); */
-  width: 330px;
+  left: 30%;
+  width: auto;
   height: 40px;
   border-radius: 5px;
   opacity: 0;
-  /* pointer-events: none;  */
   color: rgba(225, 227, 227, 0.764);
   letter-spacing: 5px;
   font-size: 18px;
@@ -62,13 +60,17 @@
 
 .head {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-top: 5px;
   text-align: center;
 }
-
+@media (max-width:550px) {
+  .head{
+    font-size: 26px;
+  }
+}
 .swis1 {
   background-image: url(../assets/swis1.jpg);
 }
