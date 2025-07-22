@@ -1,5 +1,5 @@
 import React from 'react'
-import './switzerland.css'
+import './Switzerland.css'
 import { asset } from './assets/asset'
 const Switzeland = () => {
   const swiss = [

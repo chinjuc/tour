@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Button, Modal } from 'react-bootstrap'
 import Table from 'react-bootstrap/Table';
 import { useNavigate } from 'react-router-dom'
-import './list.css'
+import './List.css'
 import { asset } from '../assets/asset';
 const List = () => {
 
