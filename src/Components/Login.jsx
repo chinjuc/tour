@@ -10,13 +10,14 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
+  const API = import.meta.env.VITE_API_URL;
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`https://json-backend-7.onrender.com/users?Email=${email}&Password=${password}`);
+      const res = await axios.get(`${API}/users?Email=${email}&Password=${password}`);
       if (res.data.length > 0) {
-        await axios.post(`https://json-backend-7.onrender.com/logins`, {
+        await axios.post(`${API}/logins`, {
           Email: email,
           loginTime: new Date().toISOString()
         });

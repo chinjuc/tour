@@ -10,8 +10,7 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
-  const API = process.env.REACT_APP_API_URL;
-
+  const API = import.meta.env.VITE_API_URL;
   const handleRegister = async () => {
     try {
       const res = await axios.get(`${API}/users?Email=${email}`);
