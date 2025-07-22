@@ -962,7 +962,7 @@ function PackageList() {
                 </div>
               </div>
             </nav>
-      <h2 className='text-center text-4xl head'>{placelists.head} </h2>
+      <h2 className=' head'>{placelists.head} </h2>
       <div className='swis-head'>
         <div className={`swis-sub ${placelists.class}`}>
           <h1>{placelists.title}</h1>

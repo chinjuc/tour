@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-// import About from './About'
 import { asset } from '../assets/asset'
 import { Link, useNavigate } from 'react-router-dom'
 import './package.css'
-import About from './About'
+
 const Package = () => {
   const [showMenu, setShowMenu] = useState(false);
   const Navigate = useNavigate();

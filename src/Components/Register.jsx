@@ -10,14 +10,15 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
+  const API = process.env.REACT_APP_API_URL;
 
   const handleRegister = async () => {
     try {
-      const res = await axios.get(`http://localhost:3002/users?Email=${email}`);
+      const res = await axios.get(`${API}/users?Email=${email}`);
       if (res.data.length > 0) {
         alert('User already exists');
       } else {
-        await axios.post('http://localhost:3002/users', {
+        await axios.post(`${API}/users`, {
           Name: name,
           Email: email,
           Password: password

@@ -10,13 +10,14 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
+  const API = process.env.REACT_APP_API_URL;
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`http://localhost:3002/users?Email=${email}&Password=${password}`);
+      const res = await axios.get(`${API}/users?Email=${email}&Password=${password}`);
       if (res.data.length > 0) {
-        await axios.post('http://localhost:3002/logins', {
+        await axios.post(`${API}/logins`, {
           Email: email,
           loginTime: new Date().toISOString()
         });
