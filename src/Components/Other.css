@@ -16,6 +16,7 @@
   color: #702963;
 }
 
+
 .card:hover {
   transform: translateY(-5px);
 }
@@ -94,17 +95,17 @@
   transition: transform 0.2s;
 }
 .honeymoon1{
-    background-image: url(./assets/maldives.jpg);
+    background-image: url(../assets/maldives.jpg);
     background-position: center;
     background-size: cover;
 }
 .honeymoon3{
-    background-image: url(./assets/paris.jpg);
+    background-image: url(../assets/paris.jpg);
     background-position: center;
     background-size: cover;
 }
 .honeymoon2{
-    background-image: url(./assets/santorini.jpg);
+    background-image: url(../assets/santorini.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -114,57 +115,57 @@
     background-size: cover;
 }
 .honeymoon5{
-    background-image: url(./assets/SwissAlps.jpg);
+    background-image: url(../assets/SwissAlps.jpg);
     background-position: center;
     background-size: cover;
 }
 .family1{
-    background-image: url(./assets/singapore.jpg);
+    background-image: url(../assets/singapore.jpg);
     background-position: center;
     background-size: cover;
 }
 .family2{
-     background-image: url(./assets/dubai.jpg);
+     background-image: url(../assets/dubai.jpg);
     background-position: center;
     background-size: cover;
 }
 .family3
 {
-    background-image: url(./assets/kerala.jpg);
+    background-image: url(../assets/kerala.jpg);
 }
 .family4{
-    background-image: url(./assets/london.jpg);
+    background-image: url(../assets/london.jpg);
 }
 .single1{
-    background-image: url(./assets/thaii.jpg);
+    background-image: url(../assets/thaii.jpg);
 }
 .single2{
-    background-image: url(./assets/palwan.jpg);
+    background-image: url(../assets/palwan.jpg);
 }
 .friends1{
-    background-image: url(./assets/goa.jpg);
+    background-image: url(../assets/goa.jpg);
 }
 .friends2{
-    background-image: url(./assets/manali.jpg);
+    background-image: url(../assets/manali.jpg);
 }
 .friends3{
-    background-image: url(./assets/dubai.jpg);
+    background-image: url(../assets/dubai.jpg);
 }
 .history1{
-    background-image: url(./assets/rome.jpg);
+    background-image: url(../assets/rome.jpg);
 }
 .history2{
-    background-image: url(./assets/taj.jpg);
+    background-image: url(../assets/taj.jpg);
 }
 .history3{
-    background-image: url(./assets/athms.jpg);
+    background-image: url(../assets/athms.jpg);
 }
 .adventure1{
-    background-image: url(./assets/riski.jpg);
+    background-image: url(../assets/riski.jpg);
 }
 .adventure2{
-    background-image: url(./assets/ladakh.jpg);
+    background-image: url(../assets/ladakh.jpg);
 }
 .adventure3{
-    background-image: url(./assets/nz.jpg);
+    background-image: url(../assets/nz.jpg);
 }
