@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './contact.css';
+import './Contact.css';
 import { asset } from '../assets/asset';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
