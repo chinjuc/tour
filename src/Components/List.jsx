@@ -17,10 +17,11 @@ const List = () => {
         setDelID(id)
         setShow(true)
     };
+    const API = import.meta.env.VITE_API_URL;
 
     const fetchData = async () => {
         try {
-            const response = await axios.get("http://localhost:3002/bookings");
+            const response = await axios.get(`${API}/bookings`);
             setValue(response?.data);
         } catch (error) {
             console.error(error);
@@ -28,7 +29,7 @@ const List = () => {
     }
 
     const deleteFn = () => {
-        axios.delete(`http://localhost:3002/bookings/${delID}`)
+        axios.delete(`${API}/bookings/${delID}`)
             .then((res) => {
                 fetchData()
                 handleClose()

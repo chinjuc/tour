@@ -7,7 +7,7 @@ body{
     scroll-behavior: smooth;
 }
 .nav-img{
-    background-image: url(../src/assets/switzerland.jpg);
+    background-image: url(../assets/switzerland.jpg);
     width: 100vw;
     /* margin: 0px; */
     /* margin-top: -9px; */

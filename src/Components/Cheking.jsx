@@ -25,7 +25,7 @@ const Cheking = () => {
      billing: "",
    
   });
-
+    const API = import.meta.env.VITE_API_URL;
    const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setForm({
@@ -39,7 +39,7 @@ const Cheking = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post(`http://localhost:3002/bookings`, form);
+      const response = await axios.post(`${API}/bookings`, form);
       console.log('Form Submitted:', response.data);
       alert("Booking submitted successfully!");
       
