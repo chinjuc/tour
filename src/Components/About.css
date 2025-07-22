@@ -4,7 +4,10 @@
 }
 
 .about-hero {
-  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;
+  /* background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat; */
+  background-image: url(../assets/mal1.jpg);
+  background-position: center;
+  background-size: cover;
   height: 60vh;
   position: relative;
   display: flex;

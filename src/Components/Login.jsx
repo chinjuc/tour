@@ -4,7 +4,6 @@ import { Route, useNavigate } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './index.css';
-import Register from './Register';
 
 const Login = () => {
   const [email, setEmail] = useState('');

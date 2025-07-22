@@ -2,6 +2,7 @@
 
 body{
     background-color: #ceb2bd;
+    /* background-color: rgb(85, 63, 72); */
     scroll-behavior: smooth;
 }
 .nav-img{
@@ -74,6 +75,7 @@ body{
   .nav-toggle {
     display: flex;
   }
+ 
 }
 
 .nav-left h1{
@@ -113,7 +115,7 @@ body{
     margin-left: 60px;
 }
 .title-head h2{
-    color: rgb(223, 22, 22);
+    color: rgb(127, 14, 14);
     text-transform: uppercase;
     font-size: 52px;
     margin: 10px;
@@ -155,4 +157,71 @@ body{
     border: 2px solid rgb(130, 228, 56);
     box-shadow: 2px 2px 5px 5px rgb(174, 211, 150);
     transition: 0.8s ease-in;
+}
+
+@media (max-width: 768px) {
+    .title-head {
+        /* align-items: center; */
+        margin-top: 165px;
+    }
+
+    .title-head h1,
+    .title-head h2,
+    .title-head span,
+    .title-head button {
+        margin-left: 10px;
+        text-align: center;
+        /* float: left; */
+    }
+
+    .title-head h1 {
+        font-size: 28px;
+    }
+    .nav-left h1{
+      font-size: 24px;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .title-head h2 {
+        font-size: 38px;
+        margin-top: 30px;
+
+    }
+
+    .title-head span {
+        font-size: 16px;
+    }
+
+    .title-head button {
+        margin-left: 10;
+        width: 150px;
+        height: 38px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-head h1 {
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+
+    .title-head h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+
+    .title-head span {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .title-head button {
+        font-size: 12px;
+        letter-spacing: 2px;
+        width: 120px;
+        height: 36px;
+        color: black;
+    }
 }

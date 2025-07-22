@@ -34,20 +34,21 @@
 
     .spcl span {
         font-size: 25px;
-        letter-spacing: 4px;
-        font-weight: 500;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 3px;
+        font-weight: 600;
+        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     }
 }
 
 .of-sub {
-    background-color: rgba(95, 36, 151, 0.325);
+    background-color: rgba(36, 18, 18, 0.864);
+    color: white;
     /* background-image: url(./assets/honeymoon.jpg); */
     background-position: center;
     background-size: cover;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
-    width: 680px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +64,7 @@
     width: 600px;
     height: 200px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -75,7 +76,7 @@
     margin: 0;
     text-align: center;
     text-transform: capitalize;
-    color: #2c2c2c;
+    color: #f6ebeb;
     text-decoration: underline;
 }
 
@@ -89,6 +90,7 @@
     .of-sub {
         width: 90%;
         max-width: 300px;
+        padding: 0px;
     }
 
     .of-sub h2 {
@@ -96,8 +98,10 @@
         margin-top: 10px;
     }
 
-    .of-sub img {
-        width: 120px;
-        height: auto;
+    .of-sub img{
+        width: 300px;
+        border-radius: 10px;
+        /* padding: 5px; */
+        height: 150px;
     }
 }
