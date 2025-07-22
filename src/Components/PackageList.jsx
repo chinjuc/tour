@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { asset } from '../assets/asset';
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import './switzerland.css'
+import './Switzerland.css'
 
 const List = [
   {
