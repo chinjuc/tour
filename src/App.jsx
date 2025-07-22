@@ -1,8 +1,8 @@
 import React from 'react'
 import Home from '../src/Components/Home.jsx'
-import Login from '../src/Components/Login'
+// import Login from '../src/Components/Login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Register from '../src/Components/Register'
+// import Register from '../src/Components/Register'
 import Package from '../src/Components/Package'
 import PackageList from '../src/Components/PackageList'
 import Cheking from '../src/Components/Cheking'
@@ -18,8 +18,8 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          {/* <Route path="/login" element={<Login />} /> */}
+          {/* <Route path="/register" element={<Register />} /> */}
           <Route path="/home" element={<Home />} />
 
           <Route path="/package" element={<Package />} />
