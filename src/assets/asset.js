@@ -26,7 +26,6 @@ import france1 from './france1.jpg'
 import france2 from './france2.jpg'
 import france3 from './france3.jpg'
 import icon from './human.png'
-import swis from './swis.mp4'
 import head from './bg1.jpg'
 import family from './family.jpg'
 import friends from './friends.jpg'
@@ -43,11 +42,22 @@ import balii from './bali.jpg'
 import swissalp from './SwissAlps.jpg'
 import edit from './edit.png'
 import deletes from './delete.png'
-
+import ker from './ker.jpg'
+import tur1 from './tur1.jpg'
+import tur2 from './tur2.jpg'
+import tur3 from './tur.jpg'
+import tur4 from './tur4.jpg'
+import goa from './goa.jpg'
 export const asset ={
     snow,
     santo,
     bali,
+    tur1,
+    tur2,
+    tur3,
+    tur4,
+    ker,
+    goa,
     edit,
     deletes,
     paris,
@@ -67,7 +77,6 @@ export const asset ={
     head,
     swiss1,
     icon,
-    swis,
     swiss2,
     swiss3,
     swiss4,
