@@ -37,7 +37,6 @@
   margin-top: 10px;
 }
 
-/* Fade In Animations */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
@@ -63,8 +62,11 @@
 }
 
 .about-card {
-  background-color: #fafafa;
-  border-left: 4px solid #7f56d9;
+  /* background-color: #fafafa; */
+  background-image: url(../assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  border-left: 4px solid #5b37a9;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -78,23 +80,36 @@
 .about-card h2 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #0f326f;
+  color: #0a295f;
 }
-
+.about-card p{
+  color: rgb(4, 1, 1);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
 .about-card ul {
   list-style: none;
   padding-left: 0;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .about-card ul li::before {
   content: '✔';
-  color: #7f56d9;
+  color: #7348d0;
   margin-right: 8px;
 }
 
 .highlight-card {
   background: linear-gradient(135deg, #ede7f6, #f3e5f5);
   border-left: 4px solid #d500f9;
+  background-image: url(../assets/swis1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.highlight-card p{
+    color: rgb(236, 214, 214);
+
 }
 
 .about-footer {

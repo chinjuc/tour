@@ -45,7 +45,6 @@ body{
   border-radius: 2px;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   .nav-right {
     display: none;
@@ -54,7 +53,6 @@ body{
     top: 50px;
     /* right: 5px; */
     width: 100%;
-    /* left: 5px; */
     background: rgba(219, 209, 209, 0.63); /* transparent dark bg */
     padding: 15px;
     border-radius: 5px;
@@ -162,7 +160,7 @@ body{
 @media (max-width: 768px) {
     .title-head {
         /* align-items: center; */
-        margin-top: 165px;
+        margin-top: 200px;
     }
 
     .title-head h1,

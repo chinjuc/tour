@@ -3,12 +3,10 @@
   max-width: 1200px;
   margin: auto;
   margin-top: 20px;
-  /* background: #f4f9ff; */
   background-image: url(../assets/bg.jpg);
   background-position: center;
   background-size: cover;
   font-family: 'Segoe UI', sans-serif;
-  /* border-radius: 30px; */
 }
 
 .contact-title {
@@ -104,8 +102,6 @@
   .contact-container {
     padding: 40px;
     margin-top: 10px;
-    /* border-radius: 20px; */
-    /* background-image: url(./assets/snow.jpg); */
   }
 
   .contact-title,

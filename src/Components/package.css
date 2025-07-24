@@ -10,14 +10,12 @@
 @media (max-width:728px) {
     .card-pck{
         display: grid;
-        /* grid-template-columns: 2fr 2fr ; */
     }    
     
 }
 @media (max-width:500px) {
     .card-pck{
         display: grid;
-        /* grid-template-columns: 2fr 2fr 2fr; */
     }    
 }
 .card-hold{

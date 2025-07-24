@@ -80,7 +80,7 @@ const Package = () => {
       image: asset.maldives
     },
     {
-      title: "Taj Mahal",
+      title: "delhi",
       para: "6N/7D",
       link: "/tajmahal",
       cost: " Checkout this ",
@@ -120,25 +120,25 @@ const Package = () => {
       off: "50%"
     },
     {
-      title: "Maldives",
-      para: "6N/7D",
-      offer: "4dys only",
-      img: asset.maldives,
-      off: '25%'
+      title: "Goa",
+      para: "4N/5D",
+      offer: "2dys only",
+      img: asset.goa,
+      off: '20%'
     },
     {
-      title: "Bali",
+      title: "kerala",
       para: "6N/7D",
       offer: "4dys only",
-      img: asset.thailand1,
+      img: asset.ker,
       off: '30%'
     },
     {
-      title: "Maldives",
-      para: "6N/7D",
+      title: "maldives ",
+      para: "5N/6D",
       offer: "4dys only",
       img: asset.maldives,
-      off: '32%'
+      off: '36%'
     },
   ]
   return (

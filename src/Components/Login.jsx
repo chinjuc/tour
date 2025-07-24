@@ -58,8 +58,8 @@ const Login = () => {
           </Form.Group>
 
           <Form.Group className="d-flex justify-content-between align-items-center mb-3">
-            <Form.Check type="checkbox" label="Remember me"   className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded" />
-            <a href="#" className="text-sm">Forgot password?</a>
+            <Form.Check type="checkbox" label=""   className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded" />
+            <a href="#" className="text-sm text-white">Forgot password?</a>
           </Form.Group>
 
           <Button type="submit" className="w-full flex justify-center py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500" onClick={handleLogin}>Login</Button>

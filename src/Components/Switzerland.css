@@ -263,6 +263,39 @@
 .kerala8{
   background-image: url(../assets/kerala3.jpg);
 }
+.turkey1{
+  background-image: url(../assets/tur.jpg);
+}
+.turkey2{
+  background-image: url(../assets/tur1.jpg);
+}
+.turkey3{
+  background-image: url(../assets/tur2.jpg);
+}
+.turkey4{
+  background-image: url(../assets/tur3.jpg);
+}
+.turkey{
+  background-image: url(../assets/tur4.jpg);
+}
+.delhi1{
+  background-image: url(../assets/del.jpg);
+}
+.delhi2{
+  background-image: url(../assets/del1.jpg);
+}
+.delhi3{
+  background-image: url(../assets/del3.jpg);
+}
+.delhi4{
+  background-image: url(../assets/del2.jpg);
+}
+.delhi5{
+  background-image: url(../assets/tajmahal.jpg);
+}
+.delhi6{
+  background-image: url(../assets/taj.jpg);
+}
 .swis-sub h1 {
   text-transform: uppercase;
   font-size: 18px;
