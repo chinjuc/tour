@@ -164,6 +164,8 @@ const Package = () => {
           </div>
         </div>
       </nav>
+            <img src={asset.bk} width={25} className='back-up'  onClick={() => Navigate('/home')} />
+      
       <h1 className='pck-hd'>Packages</h1>
       <div className='card-pck'>
         {places.map((place, index) => (

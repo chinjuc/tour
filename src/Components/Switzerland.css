@@ -305,7 +305,10 @@
   margin-left: 20px;
   color: rgb(10, 1, 1);
 }
-
+.back-up{
+  margin-left: '80px'; 
+  margin-top:'20px';
+}
 .swis-sub h2 {
   position: absolute;
   bottom: 46px;
@@ -386,7 +389,9 @@
   min-height: 100vh;
   overflow: hidden;
 }
-
+.back-up{
+  margin-top: 10px;
+}
 .background-video {
   position: fixed;
     top: 0;

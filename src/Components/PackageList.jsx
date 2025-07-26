@@ -933,7 +933,7 @@ const List = [
 
 function PackageList() {
   const Navigate = useNavigate()
-    const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
   const { placelist } = useParams();
   const placelists = List.find((Lists) => Lists.name.toLowerCase() === placelist.toLowerCase())
 
@@ -941,27 +941,28 @@ function PackageList() {
 
   return (
     <div>
-       <nav>
-              <div className='nav-top'>
-                <div className='nav-left'>
-                  <h1 className='text-gray-900'>Heaven Fantasy</h1>
-                </div>
-      
-                <div className='nav-toggle' onClick={() => setShowMenu(!showMenu)}>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-      
-                <div className={`nav-right ${showMenu ? 'active' : ''}`}>
-                  <Link to='/home'>Home</Link>
-                  <Link to='/package'>Packages </Link>
-                  <Link to='/about'>About </Link>
-                  <Link to='/contact'>Contact </Link>
-                  <img src={asset.icon} onClick={() => Navigate('/login')} style={{ width: '40px', borderRadius: '50%', marginRight: '20px', cursor: 'pointer' }} alt="" />
-                </div>
-              </div>
-            </nav>
+      <nav>
+        <div className='nav-top'>
+          <div className='nav-left'>
+            <h1 className='text-gray-900'>Heaven Fantasy</h1>
+          </div>
+
+          <div className='nav-toggle' onClick={() => setShowMenu(!showMenu)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div className={`nav-right ${showMenu ? 'active' : ''}`}>
+            <Link to='/home'>Home</Link>
+            <Link to='/package'>Packages </Link>
+            <Link to='/about'>About </Link>
+            <Link to='/contact'>Contact </Link>
+            <img src={asset.icon} onClick={() => Navigate('/login')} style={{ width: '40px', borderRadius: '50%', marginRight: '20px', cursor: 'pointer' }} alt="" />
+          </div>
+        </div>
+      </nav>
+      <img src={asset.bk} width={25} className='back-up' onClick={() => Navigate('/package')} />
       <h2 className=' head'>{placelists.head} </h2>
       <div className='swis-head'>
         <div className={`swis-sub ${placelists.class}`}>
@@ -1010,22 +1011,22 @@ function PackageList() {
           <h1>{placelists.title6}</h1>
           <em>{placelists.p6}</em>
           <p>{placelists.desc6}</p>
-          <Link to='/checking'><button className='btn-1'>{placelists.btn}</button></Link>        
-          </div>
+          <Link to='/checking'><button className='btn-1'>{placelists.btn}</button></Link>
+        </div>
 
         <div className={`swis-sub ${placelists.class7}`}>
           <h1>{placelists.title7}</h1>
           <em>{placelists.p7}</em>
           <p>{placelists.desc7}</p>
-          <Link to='/checking'><button className='btn-1'>{placelists.btn}</button></Link>       
-           </div>
+          <Link to='/checking'><button className='btn-1'>{placelists.btn}</button></Link>
+        </div>
 
         <div className={`swis-sub ${placelists.class8}`}>
           <h1>{placelists.title8}</h1>
           <em>{placelists.p8}</em>
           <p>{placelists.desc8}</p>
-          <Link to='/checking'><button className='btn-1'>{placelists.btn}</button></Link>        
-          </div>
+          <Link to='/checking'><button className='btn-1'>{placelists.btn}</button></Link>
+        </div>
         <div className="swis-video">
 
         </div>

@@ -70,6 +70,7 @@ const Other = () => {
         </div>
       </nav>
        <div>
+              <img src={asset.bk} width={25}className='back-up'  onClick={() => Navigate('/home')} />
       <div className='spcl'>
         <span>Special Packages</span>
         <img src={asset.icons} alt="" /> 
