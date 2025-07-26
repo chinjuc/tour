@@ -963,7 +963,8 @@ function PackageList() {
         </div>
       </nav>
       <img src={asset.bk} width={25} className='back-up' onClick={() => Navigate('/package')} />
-      <h2 className=' head'>{placelists.head} </h2>
+       
+                  <h2 className=' head'>{placelists.head} </h2>
       <div className='swis-head'>
         <div className={`swis-sub ${placelists.class}`}>
           <h1>{placelists.title}</h1>
@@ -1035,5 +1036,4 @@ function PackageList() {
     </div>
   )
 }
-
 export default PackageList

@@ -1,8 +1,9 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-// import { asset } from './assets/asset';
+import React, { useState } from 'react';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import './Other.css'
-// import { asset } from './assets/asset';
+import { asset } from '../assets/asset';
+
+
 const Special = [
     {
         name: 'honeymoon',
@@ -199,9 +200,32 @@ function OtherList() {
             </div>
         );
     }
-
+ const [showMenu, setShowMenu] = useState(false);
+  const Navigate = useNavigate();
     return (
         <>
+        <nav>
+                <div className='nav-top'>
+                  <div className='nav-left'>
+                    <h1 className='text-gray-900'>Heaven Fantasy</h1>
+                  </div>
+        
+                  <div className='nav-toggle' onClick={() => setShowMenu(!showMenu)}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+        
+                  <div className={`nav-right ${showMenu ? 'active' : ''}`}>
+                    <Link to='/home'>Home</Link>
+                    <Link to='/package'>Packages </Link>
+                    <Link to='/about'>About </Link>
+                    <Link to='/contact'>Contact </Link>
+                    <img src={asset.icon} onClick={() => Navigate('/login')} style={{ width: '40px', borderRadius: '50%', marginRight: '20px', cursor: 'pointer' }} alt="" />
+                  </div>
+                </div>
+              </nav>
+              
             <div className="package-list-container">
                 <h2 className='text-center heads'>{placelists.head}</h2>
                 <div className="swis-head">

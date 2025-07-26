@@ -88,5 +88,4 @@ const Other = () => {
     </div>
   )
 }
-
 export default Other
